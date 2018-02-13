@@ -1,0 +1,10 @@
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\bin\Debug\netcoreapp2.0\TaskT.deps.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\bin\Debug\netcoreapp2.0\TaskT.runtimeconfig.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\bin\Debug\netcoreapp2.0\TaskT.runtimeconfig.dev.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\bin\Debug\netcoreapp2.0\TaskT.dll
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\bin\Debug\netcoreapp2.0\TaskT.pdb
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\obj\Debug\netcoreapp2.0\TaskT.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\obj\Debug\netcoreapp2.0\TaskT.AssemblyInfoInputs.cache
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\obj\Debug\netcoreapp2.0\TaskT.AssemblyInfo.cs
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\obj\Debug\netcoreapp2.0\TaskT.dll
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\TaskT\obj\Debug\netcoreapp2.0\TaskT.pdb

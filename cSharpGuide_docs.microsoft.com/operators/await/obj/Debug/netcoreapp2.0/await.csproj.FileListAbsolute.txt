@@ -1,0 +1,10 @@
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\bin\Debug\netcoreapp2.0\await.deps.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\bin\Debug\netcoreapp2.0\await.runtimeconfig.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\bin\Debug\netcoreapp2.0\await.runtimeconfig.dev.json
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\bin\Debug\netcoreapp2.0\await.dll
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\bin\Debug\netcoreapp2.0\await.pdb
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\obj\Debug\netcoreapp2.0\await.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\obj\Debug\netcoreapp2.0\await.AssemblyInfoInputs.cache
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\obj\Debug\netcoreapp2.0\await.AssemblyInfo.cs
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\obj\Debug\netcoreapp2.0\await.dll
+D:\Visual Studio\Projects\c_sharp\cSharpGuide_docs.microsoft.com\operators\await\obj\Debug\netcoreapp2.0\await.pdb
