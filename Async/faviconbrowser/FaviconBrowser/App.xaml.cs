@@ -15,11 +15,12 @@ namespace FaviconBrowser
         void App_Startup(object sender, StartupEventArgs e)
         {
 
-            var mainWindow = new EventHandlerWindow();
+            var mainWindow = new EventHandlerWindow
+            {
+                Top = 100,
 
-            mainWindow.Top = 100;
-
-            mainWindow.Left = 400;
+                Left = 400
+            };
 
             mainWindow.Show();
 

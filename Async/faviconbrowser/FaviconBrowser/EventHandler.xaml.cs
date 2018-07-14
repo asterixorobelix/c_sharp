@@ -13,7 +13,7 @@ namespace FaviconBrowser
     /// </summary>
     public partial class EventHandlerWindow : Window
     {
-
+        //uses event based async, rather than task based async
 
         public EventHandlerWindow()
         {
