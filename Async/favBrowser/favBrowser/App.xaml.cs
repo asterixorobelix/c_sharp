@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
 namespace favBrowser
 {
@@ -19,11 +13,17 @@ namespace favBrowser
             var eventHandlerWindow = new EventHandlerWindow
             {
                 Top = 100,
-
                 Left = 400
             };
 
             eventHandlerWindow.Show();
+
+            var synchronousWindow = new SynchronousWindow
+            {
+                Top = 100,
+                Left = 400
+            };
+            synchronousWindow.Show();
         }
     }
 }

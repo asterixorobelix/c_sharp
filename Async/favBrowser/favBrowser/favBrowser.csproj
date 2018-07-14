@@ -58,8 +58,15 @@
       <DependentUpon>EventHandler.xaml</DependentUpon>
     </Compile>
     <Compile Include="ImageMaker.cs" />
+    <Compile Include="SynchronousWindow.xaml.cs">
+      <DependentUpon>SynchronousWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WebsiteAddresses.cs" />
     <Page Include="EventHandler.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SynchronousWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
