@@ -4,9 +4,7 @@ using System.Windows.Controls;
 
 namespace favBrowser
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    //Downloads the favicons synchronously
     public partial class SynchronousWindow : Window
     {
 

@@ -7,7 +7,7 @@ namespace favBrowser
 {
     public partial class EventHandlerWindow : Window
     {
-        //uses event based async, rather than task based async
+        //uses event based async (EAP), rather than task based async
 
         public EventHandlerWindow()
         {

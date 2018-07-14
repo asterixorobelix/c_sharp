@@ -6,12 +6,9 @@ using System.Windows.Controls;
 
 namespace favBrowser
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    //Downloads the favicons with task based asynchronous programming (TAP)
     public partial class TaskAsyncWindow : Window
     {
-        //Uses task based asynchronous programming (TAP)
         public TaskAsyncWindow()
         {
             InitializeComponent();
