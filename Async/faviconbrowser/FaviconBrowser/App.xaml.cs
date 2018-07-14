@@ -12,5 +12,17 @@ namespace FaviconBrowser
     /// </summary>
     public partial class App : Application
     {
+        void App_Startup(object sender, StartupEventArgs e)
+        {
+
+            var mainWindow = new EventHandlerWindow();
+
+            mainWindow.Top = 100;
+
+            mainWindow.Left = 400;
+
+            mainWindow.Show();
+
+        }
     }
 }

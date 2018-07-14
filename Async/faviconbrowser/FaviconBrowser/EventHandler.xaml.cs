@@ -11,10 +11,11 @@ namespace FaviconBrowser
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class EventHandlerWindow : Window
     {
 
-        public MainWindow()
+
+        public EventHandlerWindow()
         {
             InitializeComponent();
         }
@@ -23,15 +24,22 @@ namespace FaviconBrowser
         {
             foreach (string domain in WebsiteAddresses.Websites)
             {
-                AddAFavicon(domain);
+                AddAFaviconAsync(domain);
             }
         }
 
-        private void AddAFavicon(string domain)
+        private void AddAFaviconAsync(string domain)
         {
             WebClient webClient = new WebClient();
-            byte[] bytes = webClient.DownloadData("http://" + domain + "/favicon.ico");
-            Image imageControl =ImageMaker.MakeImageControl(bytes);
+            webClient.DownloadDataCompleted += DownloadDataCompletedHandler;
+            var uri = new Uri("http://" + domain + "/favicon.ico");
+            webClient.DownloadDataAsync(uri);
+        }
+
+        private void DownloadDataCompletedHandler(object sender, DownloadDataCompletedEventArgs e)
+        {
+            var bytes = e.Result;
+            Image imageControl = ImageMaker.MakeImageControl(bytes);
             m_WrapPanel.Children.Add(imageControl);
         }
     }
