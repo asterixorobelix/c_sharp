@@ -24,6 +24,13 @@ namespace favBrowser
                 Left = 800
             };
             synchronousWindow.Show();
+
+            var taskAsyncWindow2 = new TaskAsyncWindow2
+            {
+                Top = 300,
+                Left =1000
+            };
+            taskAsyncWindow2.Show();
         }
     }
 }
