@@ -61,6 +61,9 @@
     <Compile Include="SynchronousWindow.xaml.cs">
       <DependentUpon>SynchronousWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TaskAsyncWindow3.xaml.cs">
+      <DependentUpon>TaskAsyncWindow3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TaskAsyncWindow2.xaml.cs">
       <DependentUpon>TaskAsyncWindow2.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="SynchronousWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TaskAsyncWindow3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

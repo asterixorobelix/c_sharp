@@ -6,7 +6,7 @@ using System.Windows.Controls;
 
 namespace favBrowser
 {
-    //Downloads the favicons with task based asynchronous programming (TAP)
+    //Downloads the favicons with task based asynchronous programming (TAP), but doesnt await them, so unordered
     public partial class TaskAsyncWindow2 : Window
     {
         private HttpClient client;//supports concurrent operations
