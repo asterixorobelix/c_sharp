@@ -27,7 +27,7 @@ namespace favBrowser
 
         private async Task AddAFaviconAsync(string domain)
         {
-            var uri = new Uri("http://" + domain + "/favicon.ico");
+            var uri = WebsiteAddresses.CreateUri(domain);
 
             var bytes = await client.GetByteArrayAsync(uri);
 

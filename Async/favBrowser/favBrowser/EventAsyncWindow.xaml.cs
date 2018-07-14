@@ -26,7 +26,7 @@ namespace favBrowser
         {
             WebClient webClient = new WebClient();//cant reuse web client and have concurrent operations on it.
             webClient.DownloadDataCompleted += DownloadDataCompletedHandler;
-            var uri = new Uri("http://" + domain + "/favicon.ico");
+            var uri = WebsiteAddresses.CreateUri(domain);
             webClient.DownloadDataAsync(uri);
         }
 

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace favBrowser
 {
@@ -28,5 +29,10 @@ namespace favBrowser
             "apple.com",
             "youtube.com"
         };
+
+        public static Uri CreateUri (string domain)
+        {
+            return new Uri("http://" + domain + "/favicon.ico");
+        }
     }
 }

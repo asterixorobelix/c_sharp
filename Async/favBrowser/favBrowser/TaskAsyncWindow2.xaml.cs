@@ -21,13 +21,15 @@ namespace favBrowser
         {
             foreach (string domain in WebsiteAddresses.Websites)
             {
-               AddAFaviconAsync(domain);
+                //note how this is not awaited like it is in the TaskAsyncWindow.xaml.cs
+                //Behaves more like the event based async class
+                AddAFaviconAsync(domain);
             }
         }
 
         private async Task AddAFaviconAsync(string domain)
         {
-            var uri = new Uri("http://" + domain + "/favicon.ico");
+            var uri = WebsiteAddresses.CreateUri(domain);
 
             var bytes = await client.GetByteArrayAsync(uri);
 
