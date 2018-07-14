@@ -24,7 +24,7 @@ namespace favBrowser
 
         private void AddAFaviconAsync(string domain)
         {
-            WebClient webClient = new WebClient();
+            WebClient webClient = new WebClient();//cant reuse web client and have concurrent operations on it.
             webClient.DownloadDataCompleted += DownloadDataCompletedHandler;
             var uri = new Uri("http://" + domain + "/favicon.ico");
             webClient.DownloadDataAsync(uri);
