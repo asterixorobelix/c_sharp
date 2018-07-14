@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:favBrowser"
         Title="Task Async window" Height="550" Width="550">
     <StackPanel>
-        <Button FontSize="25" Background="Pink" Click="GetButton_OnClick" Height="179">Get some favicons asynchronously!</Button>
+        <Button FontSize="20" Background="Pink" Click="GetButton_OnClick" Height="179">Get some favicons using Async Tasks!</Button>
         <WrapPanel Name="m_WrapPanel">
         </WrapPanel>
     </StackPanel>
