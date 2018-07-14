@@ -22,6 +22,9 @@ namespace favBrowser
             foreach (string domain in WebsiteAddresses.Websites)
             {
                await AddAFaviconAsync(domain);
+
+               //Note: you cannot do this: await AddAFaviconAsync(domain).ConfigureAwait(false);
+               //Because the ui thread needs to be notified that the byte download has finished.
             }
         }
 
