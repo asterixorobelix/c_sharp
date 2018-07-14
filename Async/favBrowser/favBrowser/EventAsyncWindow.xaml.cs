@@ -5,11 +5,11 @@ using System.Windows.Controls;
 
 namespace favBrowser
 {
-    public partial class EventHandlerWindow : Window
+    public partial class EventAsyncWindow : Window
     {
         //uses event based async (EAP), rather than task based async
 
-        public EventHandlerWindow()
+        public EventAsyncWindow()
         {
             InitializeComponent();
         }

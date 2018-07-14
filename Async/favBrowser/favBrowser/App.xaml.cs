@@ -10,7 +10,7 @@ namespace favBrowser
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            var eventHandlerWindow = new EventHandlerWindow
+            var eventHandlerWindow = new EventAsyncWindow
             {
                 Top = 100,
                 Left = 400
@@ -20,8 +20,8 @@ namespace favBrowser
 
             var synchronousWindow = new SynchronousWindow
             {
-                Top = 100,
-                Left = 400
+                Top = 200,
+                Left = 800
             };
             synchronousWindow.Show();
         }

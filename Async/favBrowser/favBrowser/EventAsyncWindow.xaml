@@ -1,4 +1,4 @@
-﻿<Window x:Class="favBrowser.EventHandlerWindow"
+﻿<Window x:Class="favBrowser.EventAsyncWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Event Handler Async Window" Height="550" Width="550">

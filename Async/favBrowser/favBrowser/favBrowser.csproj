@@ -54,15 +54,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="EventHandler.xaml.cs">
-      <DependentUpon>EventHandler.xaml</DependentUpon>
+    <Compile Include="EventAsyncWindow.xaml.cs">
+      <DependentUpon>EventAsyncWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ImageMaker.cs" />
     <Compile Include="SynchronousWindow.xaml.cs">
       <DependentUpon>SynchronousWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="WebsiteAddresses.cs" />
-    <Page Include="EventHandler.xaml">
+    <Page Include="EventAsyncWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
