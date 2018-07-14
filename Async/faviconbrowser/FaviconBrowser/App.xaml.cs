@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 
 namespace FaviconBrowser
 {
@@ -15,14 +10,14 @@ namespace FaviconBrowser
         void App_Startup(object sender, StartupEventArgs e)
         {
 
-            var mainWindow = new EventHandlerWindow
+            var eventHandlerWindow = new EventHandlerWindow
             {
                 Top = 100,
 
                 Left = 400
             };
 
-            mainWindow.Show();
+            eventHandlerWindow.Show();
 
         }
     }
