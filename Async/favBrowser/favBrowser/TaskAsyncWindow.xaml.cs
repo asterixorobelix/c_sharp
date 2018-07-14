@@ -9,10 +9,10 @@ namespace favBrowser
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TaskAsyncWindow : Window
     {
         //Uses task based asynchronous programming (TAP)
-        public MainWindow()
+        public TaskAsyncWindow()
         {
             InitializeComponent();
         }

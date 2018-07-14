@@ -56,7 +56,7 @@
     </ApplicationDefinition>
     <Compile Include="ImageMaker.cs" />
     <Compile Include="WebsiteAddresses.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="TaskAsyncWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -64,8 +64,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="TaskAsyncWindow.xaml.cs">
+      <DependentUpon>TaskAsyncWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
